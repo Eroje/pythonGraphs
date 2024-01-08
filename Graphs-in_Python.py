@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 x = [3, 9, 14]
 y = [2, 7, 30]
 # Plotting x and y
-plt.plot(x, y, c="red", linewidth=2, label="Line 1")
+plt.plot(x, y, c="red", linewidth=2, label="Line 1", marker='o')
 
 # Line 2 - Points
 x2 = [1, 15, 18]
@@ -31,8 +31,8 @@ plt.ylabel("Age")
 plt.title("Two line!")
 
 # Limits of the axis
-# plt.ylim(1, 10)
-# plt.xlim(0, 30)
+plt.ylim(1, 10)
+plt.xlim(0, 30)
 
 # Show the legend on the plot
 plt.legend()
